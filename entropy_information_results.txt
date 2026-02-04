@@ -1,0 +1,28 @@
+Token-by-Token Entropy and Information Analysis
+================================================================================
+
+Sample String: hello what is the entropy and information of this string
+Prompt: 
+
+Results:
+--------------------------------------------------------------------------------
+Position   Token                Entropy (bits)  Information (bits)  
+--------------------------------------------------------------------------------
+1          hello                3.6147          3.2532              
+2          what                 3.6147          2.8439              
+3          is                   3.6147          3.8777              
+4          the                  3.6147          3.3020              
+5          entropy              3.6147          4.7953              
+6          and                  3.6147          3.6296              
+7          information          3.6147          4.8053              
+8          of                   3.6147          3.5153              
+9          this                 3.6147          2.7476              
+10         string               3.6147          5.0693              
+--------------------------------------------------------------------------------
+
+Summary:
+  Total tokens: 10
+  Average entropy: 3.6147 bits
+  Total entropy (sum): 36.1473 bits
+  Total information: 37.8391 bits
+  Average information: 3.7839 bits

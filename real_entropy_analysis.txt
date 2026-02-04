@@ -1,0 +1,28 @@
+Token-by-Token Entropy and Information Analysis (REAL PROBABILITIES)
+================================================================================
+
+Model: gpt2
+Sample String: hello what is the entropy and information of this string
+Prompt: 
+
+Results:
+--------------------------------------------------------------------------------
+Pos   Token                Prob         Entropy      Information    
+--------------------------------------------------------------------------------
+1     hello                0.000021     10.1250      15.5202        
+2      what                0.000598     8.8984       10.7077        
+3      is                  0.038147     6.7695       4.7123         
+4      the                 0.105835     6.9609       3.2401         
+5      entropy             0.000006     10.4609      17.2858        
+6      and                 0.010918     5.7539       6.5172         
+7      information         0.000825     7.8867       10.2426        
+8      of                  0.101440     7.1797       3.3013         
+9      this                0.086609     5.8242       3.5293         
+10     string              0.003263     10.1328      8.2594         
+--------------------------------------------------------------------------------
+
+Summary:
+  Total tokens: 10
+  Average entropy: 7.9992 bits
+  Total information: 83.3159 bits
+  Perplexity: 322.1495

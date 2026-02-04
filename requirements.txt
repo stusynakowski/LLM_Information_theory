@@ -5,6 +5,9 @@ accelerate>=0.24.0
 sentencepiece>=0.1.99
 protobuf>=3.20.0
 
+# Ollama integration
+ollama>=0.1.0
+
 # Information theory and analysis
 numpy>=1.24.0
 scipy>=1.11.0

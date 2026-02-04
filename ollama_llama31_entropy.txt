@@ -1,0 +1,28 @@
+Token-by-Token Entropy Analysis (Ollama Sampling)
+================================================================================
+
+Model: llama3.1:8b
+Sample String: hello what is the entropy and information of this string
+Prompt: 
+
+Results:
+--------------------------------------------------------------------------------
+Pos   Token                Prob         Entropy      Information    
+--------------------------------------------------------------------------------
+1     hello                0.001000     5.6439       9.9658         
+2     what                 0.001000     5.6439       9.9658         
+3     is                   0.001000     5.6439       9.9658         
+4     the                  0.001000     5.6439       9.9658         
+5     entropy              0.001000     5.6439       9.9658         
+6     and                  0.001000     5.6439       9.9658         
+7     information          0.001000     5.6439       9.9658         
+8     of                   0.001000     5.6439       9.9658         
+9     this                 0.001000     5.6439       9.9658         
+10    string               0.001000     5.6439       9.9658         
+--------------------------------------------------------------------------------
+
+Summary:
+  Total tokens: 10
+  Average entropy: 5.6439 bits
+  Total information: 99.6578 bits
+  Perplexity: 1000.0000
