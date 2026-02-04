@@ -1,0 +1,22 @@
+# Core dependencies for LLM Information Theory Analysis
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.24.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# Information theory and analysis
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Visualization and notebook
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.17.0
+ipywidgets>=8.1.0
+
+# Development and utilities
+jupyter>=1.0.0
+notebook>=7.0.0
+tqdm>=4.66.0
+pandas>=2.0.0
